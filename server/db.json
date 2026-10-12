@@ -1,0 +1,200 @@
+{
+  "stores": [
+    {
+      "id": 1,
+      "name": "Fresh Market Downtown",
+      "address": "120 Main Street",
+      "retailerId": 1,
+      "createdAt": "2025-01-10T09:00:00Z",
+      "updatedAt": "2025-01-10T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Fresh Market North",
+      "address": "450 North Avenue",
+      "retailerId": 1,
+      "createdAt": "2025-01-12T09:00:00Z",
+      "updatedAt": "2025-01-12T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Green Foods Central",
+      "address": "800 Central Road",
+      "retailerId": 2,
+      "createdAt": "2025-02-01T09:00:00Z",
+      "updatedAt": "2025-02-01T09:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Green Foods South",
+      "address": "250 South Street",
+      "retailerId": 2,
+      "createdAt": "2025-02-05T09:00:00Z",
+      "updatedAt": "2025-02-05T09:00:00Z"
+    }
+  ],
+  "equipment-types": [
+    {
+      "id": 1,
+      "name": "Refrigerated Display Case",
+      "description": "Refrigerated display equipment for fresh products.",
+      "createdAt": "2025-01-01T08:00:00Z",
+      "updatedAt": "2025-01-01T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Commercial Freezer",
+      "description": "Freezing equipment for frozen food storage.",
+      "createdAt": "2025-01-01T08:00:00Z",
+      "updatedAt": "2025-01-01T08:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Commercial Refrigerator",
+      "description": "Refrigeration equipment for food storage.",
+      "createdAt": "2025-01-01T08:00:00Z",
+      "updatedAt": "2025-01-01T08:00:00Z"
+    }
+  ],
+  "equipment-models": [
+    {
+      "id": 1,
+      "equipmentTypeId": 1,
+      "modelNumber": "DEMO-DISPLAY-100",
+      "manufacturer": "Hussmann",
+      "description": "Simulated refrigerated display model.",
+      "createdAt": "2025-01-02T08:00:00Z",
+      "updatedAt": "2025-01-02T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "equipmentTypeId": 2,
+      "modelNumber": "DEMO-FREEZER-200",
+      "manufacturer": "Hussmann",
+      "description": "Simulated commercial freezer model.",
+      "createdAt": "2025-01-02T08:00:00Z",
+      "updatedAt": "2025-01-02T08:00:00Z"
+    },
+    {
+      "id": 3,
+      "equipmentTypeId": 3,
+      "modelNumber": "DEMO-FRIDGE-300",
+      "manufacturer": "Hussmann",
+      "description": "Simulated commercial refrigerator model.",
+      "createdAt": "2025-01-02T08:00:00Z",
+      "updatedAt": "2025-01-02T08:00:00Z"
+    }
+  ],
+  "equipment-assets": [
+    {
+      "id": 1,
+      "storeId": 1,
+      "equipmentTypeId": 1,
+      "equipmentModelId": 1,
+      "serialNumber": "HUS-DEMO-001",
+      "installedAt": "2025-03-01T10:00:00Z",
+      "status": "active",
+      "createdAt": "2025-03-01T10:00:00Z",
+      "updatedAt": "2025-03-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "storeId": 1,
+      "equipmentTypeId": 2,
+      "equipmentModelId": 2,
+      "serialNumber": "HUS-DEMO-002",
+      "installedAt": "2025-03-02T10:00:00Z",
+      "status": "active",
+      "createdAt": "2025-03-02T10:00:00Z",
+      "updatedAt": "2025-03-02T10:00:00Z"
+    },
+    {
+      "id": 3,
+      "storeId": 1,
+      "equipmentTypeId": 3,
+      "equipmentModelId": 3,
+      "serialNumber": "HUS-DEMO-003",
+      "installedAt": "2025-03-03T10:00:00Z",
+      "status": "maintenance",
+      "createdAt": "2025-03-03T10:00:00Z",
+      "updatedAt": "2025-03-03T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "storeId": 1,
+      "equipmentTypeId": 1,
+      "equipmentModelId": 1,
+      "serialNumber": "HUS-DEMO-004",
+      "installedAt": "2025-03-04T10:00:00Z",
+      "status": "active",
+      "createdAt": "2025-03-04T10:00:00Z",
+      "updatedAt": "2025-03-04T10:00:00Z"
+    },
+    {
+      "id": 5,
+      "storeId": 1,
+      "equipmentTypeId": 2,
+      "equipmentModelId": 2,
+      "serialNumber": "HUS-DEMO-005",
+      "installedAt": "2025-03-05T10:00:00Z",
+      "status": "inactive",
+      "createdAt": "2025-03-05T10:00:00Z",
+      "updatedAt": "2025-03-05T10:00:00Z"
+    },
+    {
+      "id": 6,
+      "storeId": 1,
+      "equipmentTypeId": 3,
+      "equipmentModelId": 3,
+      "serialNumber": "HUS-DEMO-006",
+      "installedAt": "2025-03-06T10:00:00Z",
+      "status": "active",
+      "createdAt": "2025-03-06T10:00:00Z",
+      "updatedAt": "2025-03-06T10:00:00Z"
+    },
+    {
+      "id": 7,
+      "storeId": 2,
+      "equipmentTypeId": 1,
+      "equipmentModelId": 1,
+      "serialNumber": "HUS-DEMO-007",
+      "installedAt": "2025-03-07T10:00:00Z",
+      "status": "active",
+      "createdAt": "2025-03-07T10:00:00Z",
+      "updatedAt": "2025-03-07T10:00:00Z"
+    },
+    {
+      "id": 8,
+      "storeId": 2,
+      "equipmentTypeId": 2,
+      "equipmentModelId": 2,
+      "serialNumber": "HUS-DEMO-008",
+      "installedAt": "2025-03-08T10:00:00Z",
+      "status": "maintenance",
+      "createdAt": "2025-03-08T10:00:00Z",
+      "updatedAt": "2025-03-08T10:00:00Z"
+    },
+    {
+      "id": 9,
+      "storeId": 3,
+      "equipmentTypeId": 3,
+      "equipmentModelId": 3,
+      "serialNumber": "HUS-DEMO-009",
+      "installedAt": "2025-03-09T10:00:00Z",
+      "status": "active",
+      "createdAt": "2025-03-09T10:00:00Z",
+      "updatedAt": "2025-03-09T10:00:00Z"
+    },
+    {
+      "id": 10,
+      "storeId": 3,
+      "equipmentTypeId": 1,
+      "equipmentModelId": 1,
+      "serialNumber": "HUS-DEMO-010",
+      "installedAt": "2025-03-10T10:00:00Z",
+      "status": "active",
+      "createdAt": "2025-03-10T10:00:00Z",
+      "updatedAt": "2025-03-10T10:00:00Z"
+    }
+  ]
+}

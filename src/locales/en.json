@@ -1,0 +1,62 @@
+{
+  "option": {
+    "home": "Home",
+    "new-equipment-asset-assignment": "New Equipment Asset Assignment"
+  },
+  "toolbar": {
+    "company-name": "Hussmann StoreConnect Platform",
+    "logo-alt": "Hussmann logo",
+    "navigation": "Main navigation",
+    "language-selector": "Select language"
+  },
+  "home": {
+    "title": "Home",
+    "content": "Hussmann is a leader in providing display merchandisers, refrigeration systems, installation and services to food retailers around the world."
+  },
+  "page-not-found": {
+    "title": "Page Not Found",
+    "content": "The path {unavailable-route} was not found.",
+    "go-home": "Go Home"
+  },
+  "common": {
+    "loading": "Loading...",
+    "no-data": "No data available",
+    "load-error": "Unable to load data. Check that the API is running."
+  },
+  "stores": {
+    "title": "Customer Stores",
+    "select": "Select a store",
+    "summary": "Store Summary",
+    "name": "Name",
+    "address": "Address",
+    "retailer-id": "Retailer ID"
+  },
+  "equipment": {
+    "title": "Store Equipment Assets",
+    "id": "ID",
+    "serial-number": "Serial Number",
+    "type": "Equipment Type",
+    "type-description": "Type Description",
+    "model-number": "Model Number",
+    "model-description": "Model Description",
+    "manufacturer": "Manufacturer",
+    "installed-at": "Installed At",
+    "status": "Status",
+    "created-at": "Created At",
+    "updated-at": "Updated At"
+  },
+  "assignment": {
+    "title": "Manage Equipment Asset Assignment",
+    "subtitle": "New equipment assignment",
+    "select-asset": "Select an equipment asset",
+    "details": "Equipment Asset Details",
+    "current-store": "Current Store",
+    "destination-store": "Destination Store",
+    "select-store": "Select a destination store",
+    "rule": "Only other stores belonging to the same retailer are available.",
+    "no-stores": "There are no other stores available for this retailer.",
+    "assign": "Assign",
+    "cancel": "Cancel",
+    "save-error": "Unable to save the assignment. Please try again."
+  }
+}

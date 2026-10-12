@@ -1,0 +1,62 @@
+{
+  "option": {
+    "home": "Inicio",
+    "new-equipment-asset-assignment": "Nueva asignación de equipo"
+  },
+  "toolbar": {
+    "company-name": "Hussmann StoreConnect Platform",
+    "logo-alt": "Logotipo de Hussmann",
+    "navigation": "Navegación principal",
+    "language-selector": "Seleccionar idioma"
+  },
+  "home": {
+    "title": "Inicio",
+    "content": "Hussmann es líder en ofrecer vitrinas de exhibición, sistemas de refrigeración, instalación y servicios a minoristas de alimentos de todo el mundo."
+  },
+  "page-not-found": {
+    "title": "Página no encontrada",
+    "content": "No se encontró la ruta {unavailable-route}.",
+    "go-home": "Volver al inicio"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "no-data": "No hay datos disponibles",
+    "load-error": "No se pudieron cargar los datos. Comprueba que la API esté funcionando."
+  },
+  "stores": {
+    "title": "Tiendas de clientes",
+    "select": "Selecciona una tienda",
+    "summary": "Resumen de la tienda",
+    "name": "Nombre",
+    "address": "Dirección",
+    "retailer-id": "ID del minorista"
+  },
+  "equipment": {
+    "title": "Equipos de la tienda",
+    "id": "ID",
+    "serial-number": "Número de serie",
+    "type": "Tipo de equipo",
+    "type-description": "Descripción del tipo",
+    "model-number": "Número de modelo",
+    "model-description": "Descripción del modelo",
+    "manufacturer": "Fabricante",
+    "installed-at": "Fecha de instalación",
+    "status": "Estado",
+    "created-at": "Fecha de creación",
+    "updated-at": "Última actualización"
+  },
+  "assignment": {
+    "title": "Gestionar asignación de equipos",
+    "subtitle": "Nueva asignación de equipo",
+    "select-asset": "Selecciona un equipo",
+    "details": "Detalles del equipo",
+    "current-store": "Tienda actual",
+    "destination-store": "Tienda destino",
+    "select-store": "Selecciona una tienda destino",
+    "rule": "Solo están disponibles otras tiendas del mismo minorista.",
+    "no-stores": "No hay otras tiendas disponibles para este minorista.",
+    "assign": "Asignar",
+    "cancel": "Cancelar",
+    "save-error": "No se pudo guardar la asignación. Inténtalo nuevamente."
+  }
+}
